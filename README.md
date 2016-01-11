@@ -1,5 +1,5 @@
 # Santa's list
-Submit your present guidelines to Santa at the same time as learning encryption ideology, JSON notation, and even git workflow.
+Submit your present guidelines to Santa while learning encryption ideology, JSON notation, and even git workflow.
 
 Table of Elements:
 - Part I: For Parents
