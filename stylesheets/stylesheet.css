@@ -1,5 +1,7 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0;
+}
 
 body {
   padding: 0;
@@ -7,13 +9,15 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71;
+  height=100%;  }
 
 a {
-  color: #1e6bb8;
+  color: #ff9900;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+
 
 .btn {
   display: inline-block;
@@ -52,12 +56,21 @@ a {
     .btn + .btn {
       margin-top: 1rem;
       margin-left: 0; } }
-
-.clickables {
-  text-align: center;
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -92px; /* the bottom margin is the negative value of the footer's height */
 }
+.footer, .push {
+    height: 62px; /* .push must be the same height as .footer */
+}
+
 .page-header {
+  text-align: center;
   color: #fff;
+  
+    height:100vh;
   text-align: center;
   background-color: #159957;
   background-image: linear-gradient(120deg, #155799, #159957); }
@@ -246,3 +259,4 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
