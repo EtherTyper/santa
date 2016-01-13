@@ -20,6 +20,7 @@ Also, you should think about whether to give them push access. If not, they'll h
 Navigate to <https://git-scm.com/downloads> and select the binary that's appropriate for your devices. I'm not going in depth about support, but keep in mind that git is designed for Unix like devices. Also, make sure that your kids have access to the repository, so that they can submit changes, somehow, whether it means hosted git repositories or else.
 ### Getting GitHub
 Navigate to <https://github.com>, and, if you're not signed in, a login or signup prompt will appear like this:
+
 ![signin](https://cloud.githubusercontent.com/assets/16024539/12304719/9e351444-b9f6-11e5-9a83-d4e014367d5c.PNG)
 
 Sign up as it tells you, and when you're done, you can optionally visit <https://desktop.github.com/>. I highly recommend you install this, as it lets your kids upload images, work offline, etc. And, in the end, they can still use it with the web interface.
@@ -34,6 +35,7 @@ $ cd santa
 ```
 ### Through GitHub
 In the top right corner of this page is a button labeled "fork".
+
 ![fork](https://cloud.githubusercontent.com/assets/16024539/12304937/ca38948e-b9f7-11e5-8efc-288dbafeadbb.png)
 
 Click it, and 
