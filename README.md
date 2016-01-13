@@ -11,23 +11,24 @@ Table of Elements:
 
 # Part I: For Santa's Managers
 ## Dependencies
-
 The first thing you'll need to do to get this repository setup for your kids is to install tools or setup accounts for them, depending on how you intend to run the project.
 
 Your kids have two main options: To do it via GitHub, which is the clean, easy system that rendered this README for you, and git, the CLI, or Command Line Interface, that GitHub does the nitty gritty on. I've found that GitHub is much easier to use than git for kids, taking away the confusion of remote versus local repositories and adding built in issue resolution systems. However, they've made some more important limiting changes as well, including the removal of distinction between fast-forward and commit merging, and the requirement to "annotate" commits and tags. It's completely your choice to make.
 
 Also, you should think about whether to give them push access. If not, they'll have to go through a merge process with the maagement, (you), before they can submit changes, and will learn about Pull Requests. If so, they simply have to sync their commits to get them on the list immediately.
-
 ### Installing git
-
 Navigate to <https://git-scm.com/downloads> and select the binary that's appropriate for your devices. I'm not going in depth about support, but keep in mind that git is designed for Unix like devices. Also, make sure that your kids have access to the repository, so that they can submit changes, somehow, whether it means hosted git repositories or else.
+### Getting GitHub
+Navigate to <https://github.com>, and, if you're not signed in, a login or signup prompt will appear like this:
+![signin](https://cloud.githubusercontent.com/assets/16024539/12304719/9e351444-b9f6-11e5-9a83-d4e014367d5c.PNG)
 ## Forking
-
-Now, after that, you need to fork the project. Not all work can be on the Vanilla
+Now, after that, you need to fork the project. Not all work for Santa's list can be immediately submitted to the Vanilla copy of Santa's List. However, and I say this in a serious tone, apprximately 40 example profiles from real people are welcome to be merged into this repository. Examples from y'all on the frontier makes it much easier for those who come afterward. If you think you have one while this notice is still up, shoot me a PR!
 ### Through git
-
 After everything is installed and ready, you can open git via the command line. In the top right corner of this page, there If you take that URL and plug it into a command like this:
 
 ```shell
-$ git clone https://github.com/EtherTyper/santa.git
+$ git clone https://github.com/EtherTyper/santa.git (OR OTHER URL IF LISTED)
+$ cd santa
 ```
+### Through GitHub
+In the top right corner of this page is a button labeled "fork". Click it, and 
