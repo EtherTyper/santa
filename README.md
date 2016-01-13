@@ -21,6 +21,8 @@ Navigate to <https://git-scm.com/downloads> and select the binary that's appropr
 ### Getting GitHub
 Navigate to <https://github.com>, and, if you're not signed in, a login or signup prompt will appear like this:
 ![signin](https://cloud.githubusercontent.com/assets/16024539/12304719/9e351444-b9f6-11e5-9a83-d4e014367d5c.PNG)
+
+Sign up as it tells you, and when you're done, you can optionally visit <https://desktop.github.com/>. I highly recommend you install this, as it lets your kids upload images, work offline, etc. And, in the end, they can still use it with the web interface.
 ## Forking
 Now, after that, you need to fork the project. Not all work for Santa's list can be immediately submitted to the Vanilla copy of Santa's List. However, and I say this in a serious tone, apprximately 40 example profiles from real people are welcome to be merged into this repository. Examples from y'all on the frontier makes it much easier for those who come afterward. If you think you have one while this notice is still up, shoot me a PR!
 ### Through git
@@ -31,4 +33,7 @@ $ git clone https://github.com/EtherTyper/santa.git (OR OTHER URL IF LISTED)
 $ cd santa
 ```
 ### Through GitHub
-In the top right corner of this page is a button labeled "fork". Click it, and 
+In the top right corner of this page is a button labeled "fork".
+![fork](https://cloud.githubusercontent.com/assets/16024539/12304937/ca38948e-b9f7-11e5-8efc-288dbafeadbb.png)
+
+Click it, and 
