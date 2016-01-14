@@ -9,21 +9,25 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
 		<script>
-		"use strict";
+			"use strict";
+			function isKids(){
+				document.getElementById('clickables').innerHTML = '<h2 class="project-tagline">Have you been a good boy or girl this year?</h2>\n<p class="btn" onclick="gotoKids()">Yes</p>\n<p class="btn" onclick="notKids()">No</p>\n<div class="push"></div>';
+			}
 			function gotoKids() {
-			  document.getElementById('clickables').innerHTML = 'That\'s great! Ask your parent for more information on how to contribute your present ideas to <em>Santa\'s list</em>, by EtherTyper, where you can Submit your present guidelines to Santa while learning encryption ideology, JSON notation, and even git workflow. It\'ll be a fun learning experience for everybody! If you want to start encrypting your present data right now, here is Santa\'s public key: <p><img src="https://octodex.github.com/images/original.png" height=150px/></p>';
+				document.getElementById('clickables').innerHTML = 'That\'s great! Ask your parent for more information on how to contribute your present ideas to <em>Santa\'s list</em>, by EtherTyper, where you can Submit your present guidelines to Santa while learning encryption ideology, JSON notation, and even git workflow. It\'ll be a fun learning experience for everybody! If you want to start encrypting your present data right now, here is Santa\'s public key: <p><img src="https://octodex.github.com/images/original.png" height=150px/></p><div class="push"></div>';
 			}
 
 			function notKids() {
-        document.getElementById('clickables').innerHTML = '<h2 class="project-tagline">Are the parent or guardian of someone who has?</h2><p class="btn" onclick="gotoParents()">Yes</p>\n<p onclick="gotoNaughty()" class="btn">No</p>';
+				document.getElementById('clickables').innerHTML = '<h2 class="project-tagline">Are the parent or guardian of someone who has?</h2><p class="btn" onclick="gotoParents()">Yes</p>\n<p onclick="gotoNaughty()" class="btn">No</p><div class="push"></div>';
 			}
 
 			function gotoParents() {
-			  document.getElementById('clickables').innerHTML = 'Awesome! You can access all learning materials in <a href="https://github.com/EtherTyper/santa">this repository</a>! It doesn\'t even matter if you don\'t understand the material itself, as instructions on how to setup, use, and teach the resources required are contained in the README! It\'ll be a fun learning experience for everybody!';
+				document.getElementById('clickables').innerHTML = 'Awesome! You can access all learning materials in <a href="https://github.com/EtherTyper/santa">this repository</a>! It doesn\'t even matter if you don\'t understand the material itself, as instructions on how to setup, use, and teach the resources required are contained in the README! It\'ll be a fun learning experience for everybody!<div class="push"></div>';
 			}
 			function gotoNaughty() {
-			  document.getElementById('clickables').innerHTML = 'I\'m very sorry, but without written permission from the governor of the North Pole, I don\'t think you are eligible to recieve gifts from Santa. However, if you know someone who would appreciate this system, or want to tap another server to answer present requests, you\'re welcome to tell others. It\'ll be a fun learning experience for everybody!';
+				document.getElementById('clickables').innerHTML = 'I\'m very sorry, but without written permission from the governor of the North Pole, I don\'t think you are eligible to recieve gifts from Santa. However, if you know someone who would appreciate this system, or want to tap another server to answer present requests, you\'re welcome to tell others. It\'ll be a fun learning experience for everybody!';
 			}
+			isKids();
 		</script>
 	</head>
 	<body>
