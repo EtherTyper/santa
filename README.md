@@ -11,7 +11,7 @@ Table of Elements:
   - Chapter 2: Forking
     - 2.1 Local Server
     - 2.2 Through GitHub
-- Part II: For Children
+    - 2.3 Almost Done
 
 # Part I: For Santa's Managers
 
@@ -25,7 +25,7 @@ Also, you should think about whether to give them push access. If not, they'll h
 
 ### Installing git
 
-On an accessible family computer the repository will be easy to access from, navigate to <https://git-scm.com/downloads> and select the binary that's appropriate for your device. I would recommend a shared laptop with multiple accounts, or a wifi shared server, so your kids can communicate to the repository. In this example, I'm going to use separate accounts on my Macbook.
+On an accessible family computer the repository will be easy to access from, navigate to <https://git-scm.com/downloads> and select the binary that's appropriate for your device. I would recommend a shared laptop with multiple accounts, or a wifi shared server, so your kids can communicate to the repository. However, [Pro Git](https://git-scm.com/book/en/v1/Git-on-the-Server-The-Protocols) has much better examples for hosted git solutions in Chapter 4.1 than I could give.In this example, I'm going to use separate accounts on my Macbook.
 
 Also, I'm not going in depth about support, but keep in mind that git is designed for Unix like devices. A failed git client or server can ruin the entire experience.
 
@@ -60,7 +60,8 @@ In the top right corner of this page is a button labeled "fork".
 
 ![fork](https://cloud.githubusercontent.com/assets/16024539/12304937/ca38948e-b9f7-11e5-8efc-288dbafeadbb.png)
 
-Click it, and your very own copy of the repository will be created. You should make it private, if you don't want other prying eyes decrypting the present data with a generic private key. This is also what your kids will use if you give them push access. If not, they'll use _**their own forks**_ of _**your fork**_.
+Click it, and your very own copy of the repository will be created. You should make it private, if you don't want other prying eyes decrypting the present data with a generic private key.
 
-### Now,
+### Almost Done
 
+Awesome! You have your own copy of Santa's List to record changes to. This is also what your kids will use if you give them push access. If not, they'll use _**their own forks**_ of _**your fork**_. Next, you need to set them up to supply patches to the list.
