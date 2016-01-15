@@ -13,12 +13,8 @@ Table of Elements:
     - 2.2 Through GitHub
     - 2.3 Almost Done
   - Chapter 3: Access
-    - 3.1 Local Server
-      - 3.1.1 Push Access
-      - 3.1.2 git Workflow
-    - 3.2 Through GitHub
-      - 3.2.1 Collaborators
-      - 3.2.2 GitHub Workflow
+    - 3.1 Local Server: Push Access
+    - 3.2 Through GitHub: Collaborator Access
 
 # Part I: For Santa's Managers
 
@@ -75,19 +71,12 @@ Awesome! You have your own copy of Santa's List to record changes to. This is al
 
 ## Access
 
+###### NOTE: The majority of this section takes place AFTER the first Chapter of Part II, meaning your child should already have their own copy of your fork.
+
 Yay! Now, you just need to give them access. This isn't quite the easy part, though.
 
-### Local Server
+### Local Server: Push Access
 
-If you followed my rules for the command line git, they probably already have physical access to the repository, and, by default, read access. They can then utter the same commands you did just a minute ago, but with your repository as the origin remote they pull and push changes to and from.
+### Through GitHub: Collaborator Access
 
-```shell
-$ git clone /managers/repository/directory/.git
-$ cd santa
-```
-
-### Push Access
-
-### git Workflow
-
-NOTE: This After designing their 
+# Part II
