@@ -71,7 +71,7 @@ Awesome! You have your own copy of Santa's List to record changes to. This is al
 
 ## Access
 
-###### NOTE: The majority of this section takes place AFTER the first Chapter of Part II, meaning your child should already have their own copy of your fork.
+###### NOTE: The majority of this section takes place AFTER Part II, meaning your child should already have their own copy of your fork, and know how to use it. Separate instructions for them on how to connect to your repository is advised, as I am unaware of them protocol you chose.
 
 Yay! Now, you just need to give them access. This isn't quite the easy part, though.
 
