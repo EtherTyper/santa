@@ -57,7 +57,7 @@ Now, after that, you need to fork the project. Not all work for Santa's list can
 After everything is installed and ready, you can open git via the command line. In the top right corner of this page, there If you take that URL and plug it into a command like this:
 
 ```shell
-$ git clone https://github.com/EtherTyper/santa.git (OR OTHER URL IF LISTED)
+$ git clone --bare https://github.com/EtherTyper/santa.git (OR OTHER URL IF LISTED)
 $ cd santa
 ```
 
@@ -75,4 +75,19 @@ Awesome! You have your own copy of Santa's List to record changes to. This is al
 
 ## Access
 
-Yay! Now, you just need to give them access. If you followed my rules for the command line git
+Yay! Now, you just need to give them access. This isn't quite the easy part, though.
+
+### Local Server
+
+If you followed my rules for the command line git, they probably already have physical access to the repository, and, by default, read access. They can then utter the same commands you did just a minute ago, but with your repository as the origin remote they pull and push changes to and from.
+
+```shell
+$ git clone /managers/repository/directory/.git
+$ cd santa
+```
+
+### Push Access
+
+### git Workflow
+
+NOTE: This After designing their 
