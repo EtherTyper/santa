@@ -12,6 +12,13 @@ Table of Elements:
     - 2.1 Local Server
     - 2.2 Through GitHub
     - 2.3 Almost Done
+  - Chapter 3: Access
+    - 3.1 Local Server
+      - 3.1.1 Push Access
+      - 3.1.2 git Workflow
+    - 3.2 Through GitHub
+      - 3.2.1 Collaborators
+      - 3.2.2 GitHub Workflow
 
 # Part I: For Santa's Managers
 
@@ -65,3 +72,7 @@ Click it, and your very own copy of the repository will be created. You should m
 ### Almost Done
 
 Awesome! You have your own copy of Santa's List to record changes to. This is also what your kids will use if you give them push access. If not, they'll use _**their own forks**_ of _**your fork**_. Next, you need to set them up to supply patches to the list.
+
+## Access
+
+Yay! Now, you just need to give them access. If you followed my rules for the command line git
