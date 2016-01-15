@@ -5,9 +5,12 @@ Submit your present guidelines to Santa while learning encryption ideology, JSON
 Table of Elements:
 - Part I: For Santa's Managers
   - Chapter 1: Dependencies
+    - 1.1 Installing git
+    - 1.2 Getting GitHub
+    - 1.3 Congrats!
   - Chapter 2: Forking
-    - 2.1 - GitHub Style
-    - 2.2 - Local Server
+    - 2.1 - Local Server
+    - 2.2 - GitHub Style
 - Part II: For Children
 
 # Part I: For Santa's Managers
