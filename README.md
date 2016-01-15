@@ -36,7 +36,7 @@ Sign up as it tells you, and when you're done, you can optionally visit <https:/
 
 ### Congrats!
 
-Now you have GitHub ready. In the next chapters, we'll talk about how you can setup a Christmas tradition over this efficient workplace structure. Have fun!
+Now you have git set up and ready. In the next chapters, we'll talk about how you can setup a Christmas tradition over this efficient workplace structure. Have fun!
 
 ## Forking
 
@@ -57,4 +57,7 @@ In the top right corner of this page is a button labeled "fork".
 
 ![fork](https://cloud.githubusercontent.com/assets/16024539/12304937/ca38948e-b9f7-11e5-8efc-288dbafeadbb.png)
 
-Click it, and your very own copy of the repository will be created. You should make it private, if you don't want other prying eyes decrypting This is what your kids will use if you give them push access. If not, they'll use _**their own forks**_ of _**your fork**_.
+Click it, and your very own copy of the repository will be created. You should make it private, if you don't want other prying eyes decrypting the present data with a generic private key. This is also what your kids will use if you give them push access. If not, they'll use _**their own forks**_ of _**your fork**_.
+
+### Now,
+
