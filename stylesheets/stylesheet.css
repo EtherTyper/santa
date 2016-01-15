@@ -1,3 +1,10 @@
+.social{
+    position: absolute;
+    top: 0;
+    left: 70%;
+    bottom: 0;
+    border: 0;
+}
 * {
   box-sizing: border-box;
   margin: 0;
