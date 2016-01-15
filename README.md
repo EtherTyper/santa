@@ -9,8 +9,8 @@ Table of Elements:
     - 1.2 Getting GitHub
     - 1.3 Congrats!
   - Chapter 2: Forking
-    - 2.1 - Local Server
-    - 2.2 - GitHub Style
+    - 2.1 Local Server
+    - 2.2 Through GitHub
 - Part II: For Children
 
 # Part I: For Santa's Managers
@@ -45,7 +45,7 @@ Now you have git set up and ready. In the next chapters, we'll talk about how yo
 
 Now, after that, you need to fork the project. Not all work for Santa's list can be immediately submitted to the Vanilla copy of Santa's List. However, and I say this in a serious tone, apprximately 40 example profiles from real people are welcome to be merged into this repository. Examples from y'all on the frontier makes it much easier for those who come afterward. If you think you have one while this notice is still up, shoot me a PR!
 
-### Through git
+### Local Server
 
 After everything is installed and ready, you can open git via the command line. In the top right corner of this page, there If you take that URL and plug it into a command like this:
 
