@@ -15,6 +15,7 @@ Table of Elements:
   - Chapter 3: Access
     - 3.1 Local Server: Push Access
     - 3.2 Through GitHub: Collaborator Access
+    - 3.3 You're Dismissed
 
 # Part I: For Santa's Managers
 
@@ -28,7 +29,7 @@ Also, you should think about whether to give them push access. If not, they'll h
 
 ### Installing git
 
-On an accessible family computer the repository will be easy to access from, navigate to <https://git-scm.com/downloads> and select the binary that's appropriate for your device. I would recommend a shared laptop with multiple accounts, or a wifi shared server, so your kids can communicate to the repository. However, [Pro Git](https://git-scm.com/book/en/v1/Git-on-the-Server-The-Protocols) has much better examples for hosted git solutions in Chapter 4.1 than I could give.In this example, I'm going to use separate accounts on my Macbook.
+On an accessible family computer the repository will be easy to access from, navigate to <https://git-scm.com/downloads> and select the binary that's appropriate for your device. I would recommend a shared laptop with multiple accounts, or a wifi shared server, so your kids can communicate to the repository. However, Pro Git has much better examples for hosted git solutions in [Chapter 4.1](https://git-scm.com/book/en/v1/Git-on-the-Server-The-Protocols) than I could give.In this example, I'm going to use separate accounts on my Macbook.
 
 Also, I'm not going in depth about support, but keep in mind that git is designed for Unix like devices. A failed git client or server can ruin the entire experience.
 
@@ -77,6 +78,8 @@ Yay! Now, you just need to give them access. This isn't quite the easy part, tho
 
 ### Local Server: Push Access
 
+For local server purposes, I'm not going to go into authentication details, as it again depends on the protocol. In the simple, local protocol, file, everyone can push and pull who has equivalent access to the file system. As I'm writing this on a MacBook, that's the scenario I'll consider. Again, [Chapter 4.1](https://git-scm.com/book/en/v1/Git-on-the-Server-The-Protocols) of Pro Git will help.
+
 ### Through GitHub: Collaborator Access
 
 On the front page of your repository at github.com, navigate to Settings, and then Collaborators.
@@ -84,5 +87,9 @@ On the front page of your repository at github.com, navigate to Settings, and th
 ![collaborators](https://cloud.githubusercontent.com/assets/16024539/12362612/e2eed8d8-bb89-11e5-857a-ad93d69f8335.PNG)
 
 Here, you can add your little muffins' usernames, so they can directly contribute. This way, there is no need for your maintenance.
+
+### You're dismissed
+
+Now, your kids can use the guide in Part II to manage the repository themselves. If you or they screw something up with the JSON file, or something else, file an issue. Or, if you're willing to declassify your code.
 
 # Part II
