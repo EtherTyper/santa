@@ -16,6 +16,10 @@ Table of Elements:
     - 3.1 Local Server: Push Access
     - 3.2 Through GitHub: Collaborator Access
     - 3.3 You're Dismissed
+  - Chapter 4: Management
+    - 4.1 Why Self Manage
+- Part II: For Santa's Elves
+  - Chapter 1: Encrypting Present Guidelines
 
 # Part I: For Santa's Managers
 
