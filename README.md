@@ -18,6 +18,9 @@ Table of Elements:
     - 3.3 You're Dismissed
   - Chapter 4: Management
     - 4.1 Why Self Manage
+    - 4.2 Local Server: Patches and Pulling
+    - 4.3 Through GitHub: Integrated Management and the Issues System
+    - 4.4 Keeping Up
 - Part II: For Santa's Elves
   - Chapter 1: Encrypting Present Guidelines
 
