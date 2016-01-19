@@ -79,6 +79,9 @@ In the top right corner of this page is a button labeled "fork".
 
 Click it, and your very own copy of the repository will be created. You should make it private, if you don't want other prying eyes decrypting the present data with a generic private key. You cand othis by accessing the "Settings" of your repository and scrolling to the Danger Zone.
 
+![settings](https://cloud.githubusercontent.com/assets/16024539/12429255/d50fb304-beae-11e5-87d4-c001ec4b67ab.PNG)
+![danger zone](https://cloud.githubusercontent.com/assets/16024539/12429258/d7ee83c0-beae-11e5-9383-cfd0d80becc5.PNG)
+
 ### Almost Done
 
 Awesome! You have your own copy of Santa's List to record changes to. This is also what your kids will use if you give them push access. If not, they'll use _**their own forks**_ of _**your fork**_. Next, you need to set them up to supply patches to the list.
