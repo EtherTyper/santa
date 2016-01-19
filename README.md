@@ -77,7 +77,7 @@ In the top right corner of this page is a button labeled "fork".
 
 ![fork](https://cloud.githubusercontent.com/assets/16024539/12304937/ca38948e-b9f7-11e5-8efc-288dbafeadbb.png)
 
-Click it, and your very own copy of the repository will be created. You should make it private, if you don't want other prying eyes decrypting the present data with a generic private key.
+Click it, and your very own copy of the repository will be created. You should make it private, if you don't want other prying eyes decrypting the present data with a generic private key. You cand othis by accessing the "Settings" of your repository and scrolling to the Danger Zone.
 
 ### Almost Done
 
