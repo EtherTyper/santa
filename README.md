@@ -62,7 +62,14 @@ After everything is installed and ready, you can open git via the command line. 
 
 ```shell
 $ git clone --bare https://github.com/EtherTyper/santa.git (OR OTHER URL IF LISTED)
-$ cd santa
+$ git clone https://github.com/EtherTyper/santa.git
+Cloning into 'santa'...
+remote: Counting objects: 172, done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 172 (delta 4), reused 0 (delta 0), pack-reused 162
+Receiving objects: 100% (172/172), 34.07 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (102/102), done.
+Checking connectivity... done.
 ```
 
 ### Through GitHub
