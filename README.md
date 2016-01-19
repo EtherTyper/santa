@@ -36,7 +36,7 @@ Also, you should think about whether to give them push access. If not, they'll h
 
 ### Installing git
 
-On an accessible family computer the repository will be easy to access from, navigate to <https://git-scm.com/downloads> and select the binary that's appropriate for your device. I would recommend a shared laptop with multiple accounts, or a wifi shared server, so your kids can communicate to the repository. However, Pro Git has much better examples for hosted git solutions in [Chapter 4.1](https://git-scm.com/book/en/v1/Git-on-the-Server-The-Protocols) than I could give.In this example, I'm going to use separate accounts on my Macbook.
+On an accessible family computer the repository will be easy to access from, navigate to <https://git-scm.com/downloads> and select the binary that's appropriate for your device. I would recommend a shared laptop with multiple accounts, or a wifi shared server, so your kids can communicate to the repository. However, Pro Git has much better examples for hosted git solutions in [Chapter 4.1](https://git-scm.com/book/en/v1/Git-on-the-Server-The-Protocols) than I could give. In this example, I'm going to use separate accounts on my Macbook.
 
 Also, I'm not going in depth about support, but keep in mind that git is designed for Unix like devices. A failed git client or server can ruin the entire experience.
 
