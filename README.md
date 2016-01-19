@@ -103,6 +103,6 @@ Here, you can add your little muffins' usernames, so they can directly contribut
 
 ### You're dismissed
 
-Now, your kids can use the guide in Part II to manage the repository themselves. If you or they screw something up with the JSON file, or something else, file an issue. Or, if you're willing to declassify your code.
+Now, your kids can use the guide in Part II to manage the repository themselves. If you or they screw something up with the JSON file, or something else, file an issue. Or, if you're willing to declassify your code, show me a compressed git diff. Santa and I'll figure out the rest for you, if you need. Have fun, and a Merry Christmas!
 
 # Part II
