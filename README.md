@@ -3,7 +3,7 @@
 Submit your present guidelines to Santa while learning encryption ideology, JSON notation, and even git workflow. The guide is still _**being wriiten**_, much less is it even being edited and proofread, so I'd suggest that people stay away unless if they're looking to make it better.
 
 Table of Elements:
-- Part I: For Santa's Managers
+- Part I: For Santa's Elves
   - Chapter 1: Dependencies
     - 1.1 Installing git
     - 1.2 Getting GitHub
@@ -21,7 +21,7 @@ Table of Elements:
     - 4.2 Local Server: Patches and Pulling
     - 4.3 Through GitHub: Integrated Management and the Issues System
     - 4.4 Keeping Up
-- Part II: For Santa's Elves
+- Part II: For Good Boys or Girls
   - Chapter 1: Encrypting Present Guidelines
 
 # Part I: For Santa's Managers
