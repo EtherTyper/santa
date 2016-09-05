@@ -21,10 +21,11 @@ Table of Elements:
     - 4.2 Local Server: Patches and Pulling
     - 4.3 Through GitHub: Integrated Management and the Issues System
     - 4.4 Keeping Up
-- Part II: For Good Boys or Girls
+- Part II: For Good Children
   - Chapter 1: Encrypting Present Guidelines
+  - Chapter 2: Editing JSON Contents
 
-# Part I: For Santa's Managers
+# Part I: For Santa's Elves
 
 ## Dependencies
 
@@ -36,7 +37,7 @@ Also, you should think about whether to give them push access. If not, they'll h
 
 ### Installing git
 
-On an accessible family computer the repository will be easy to access from, navigate to <https://git-scm.com/downloads> and select the binary that's appropriate for your device. I would recommend a shared laptop with multiple accounts, or a wifi shared server, so your kids can communicate to the repository. However, Pro Git has much better examples for hosted git solutions in [Chapter 4.1](https://git-scm.com/book/en/v1/Git-on-the-Server-The-Protocols) than I could give. In this example, I'm going to use separate accounts on my Macbook.
+On an accessible family computer the repository will be easy to access from, navigate to <https://git-scm.com/downloads> and select the binary that's appropriate for your device. I would recommend a shared laptop with multiple accounts, or a wifi shared server, so your kids can communicate to the repository. However, Pro Git has much better examples for hosted git solutions in [Chapter 4.1](https://git-scm.com/book/en/v1/Git-on-the-Server-The-Protocols) than I could give. In this example, I'm going to use separate accounts on my Macbook, with the main repository in my Shared folder.
 
 Also, I'm not going in depth about support, but keep in mind that git is designed for Unix like devices. A failed git client or server can ruin the entire experience.
 
@@ -88,7 +89,7 @@ Awesome! You have your own copy of Santa's List to record changes to. This is al
 
 ## Access
 
-###### NOTE: The majority of this section takes place AFTER Part II, meaning your child should already have their own copy of your fork, and know how to use it. Separate instructions for them on how to connect to your repository is advised, as I am unaware of them protocol you chose. If you want to teach them about open source collaboration models, you can skip this chapter.
+###### NOTE: The majority of this section takes place AFTER Part II, meaning your child should already have their own copy of your fork, and know how to use it. Separate instructions for them on how to connect to your repository is advised, as I am unaware of the protocol you chose to make your repository accessible through. If you want to teach them about open source collaboration models, you can skip this chapter.
 
 Yay! Now, you just need to give them access. This isn't quite the easy part, though.
 
@@ -108,4 +109,20 @@ Here, you can add your little muffins' usernames, so they can directly contribut
 
 Now, your kids can use the guide in Part II to manage the repository themselves. If you or they screw something up with the JSON file, or something else, file an issue. Or, if you're willing to declassify your code, show me a compressed git diff. Santa and I'll figure out the rest for you, if you need. Have fun, and a Merry Christmas!
 
-# Part II
+## Management
+
+### Why Self Manage
+
+The reality is that most open source projects will organize external code contributors into two categories: collaborators, and external contributors. Once someone have a reputation as an external contributor for consistently submitting good, useful patches to a project, they might be offered the opportunity to directly push code to the repository, but such a change is neither immediate nor desirable if you have other things to do.
+
+That is the logic behind code review systems, like GitHub's Pull Requests or Gerrit. They provide a intermediate repository, where external contributors can push code to an intermediate repository, and project maintainers pull code from. Git, however, is traditionally incapable of facilitating such 'intermediate repositories,' which is why it is much more common to send patch files over email in older projects.
+
+### Local Server: Patches and Pulling
+### Through GitHub: Integrated Management and the Issues System
+### Keeping Up
+
+
+# Part II: For Good Children
+
+## Encrypting Present Guidelines
+## Editing JSON Contents
