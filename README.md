@@ -1,6 +1,6 @@
 # Santa's list
 
-Submit your present guidelines to Santa while learning encryption ideology, JSON notation, and even git workflow. The guide is still _**being wriiten**_, much less is it even being edited and proofread, so I'd suggest that people stay away unless if they're looking to make it better.
+Submit your present guidelines to Santa while learning encryption ideology, JSON notation, and even git workflow. The guide is still _**being written**_, much less is it even being edited and proofread, so I'd suggest that people stay away unless if they're looking to make it better.
 
 Table of Elements:
 - Part I: For Santa's Elves
@@ -32,7 +32,7 @@ The first thing you'll need to do to get this repository setup for your kids is 
 
 Your kids have two main options: To do it via GitHub, which is the clean, easy system that rendered this README for you, and git, the CLI, or Command Line Interface, that GitHub does the nitty gritty on. I've found that GitHub is much easier to use than git for kids, taking away the confusion of remote versus local repositories and adding built in issue resolution systems. However, they've made some more important limiting changes as well, including the removal of distinction between fast-forward and commit merging, and the requirement to "annotate" commits and tags. It's completely your choice to make.
 
-Also, you should think about whether to give them push access. If not, they'll have to go through a merge process with the maagement, (you), before they can submit changes, and will learn about Pull Requests. If so, they simply have to sync their commits to get them on the list immediately.
+Also, you should think about whether to give them push access. If not, they'll have to go through a merge process with the manager, (you), before they can submit changes, and will learn about Pull Requests. If so, they simply have to sync their commits to get them on the list immediately.
 
 ### Installing git
 
@@ -50,18 +50,18 @@ Sign up as it tells you, and when you're done, you can optionally visit <https:/
 
 ### Congrats!
 
-Now you have git set up and ready. In the next chapters, we'll talk about how you can setup a Christmas tradition over this efficient workplace structure. Have fun!
+Now you have git set up and ready. In the next chapters, we'll talk about how you can set up a Christmas tradition over this efficient workplace structure. Have fun!
 
 ## Forking
 
-Now, after that, you need to fork the project. Not all work for Santa's list can be immediately submitted to the Vanilla copy of Santa's List. However, and I say this in a serious tone, apprximately 40 example profiles from real people are welcome to be merged into this repository. Examples from y'all on the frontier makes it much easier for those who come afterward. If you think you have one while this notice is still up, shoot me a PR!
+Now, after that, you need to fork the project. Not all work for Santa's list can be immediately submitted to the Vanilla copy of Santa's List. However, and I say this in a serious tone, approximately 40 example profiles from real people are welcome to be merged into this repository. Examples from y'all on the frontier makes it much easier for those who come afterward. If you think you have one while this notice is still up, shoot me a PR!
 
 ### Local Server
 
 After everything is installed and ready, you can open git via the command line. In the top right corner of this page, there If you take that URL and plug it into a command like this:
 
 ```shell
-$ git clone --bare https://github.com/EtherTyper/santa.git (OR OTHER URL IF LISTED)
+$ git clone --bare https://github.com/EtherTyper/santa.git
 Cloning into 'santa'...
 remote: Counting objects: 172, done.
 remote: Compressing objects: 100% (10/10), done.
@@ -77,7 +77,7 @@ In the top right corner of this page is a button labeled "fork".
 
 ![fork](https://cloud.githubusercontent.com/assets/16024539/12304937/ca38948e-b9f7-11e5-8efc-288dbafeadbb.png)
 
-Click it, and your very own copy of the repository will be created. You should make it private, if you don't want other prying eyes decrypting the present data with a generic private key. You cand othis by accessing the "Settings" of your repository and scrolling to the Danger Zone.
+Click it, and your very own copy of the repository will be created. You should make it private, if you don't want other prying eyes decrypting the present data with a generic private key. You can do this by accessing the "Settings" of your repository and scrolling to the Danger Zone.
 
 ![settings](https://cloud.githubusercontent.com/assets/16024539/12429255/d50fb304-beae-11e5-87d4-c001ec4b67ab.PNG)
 ![danger zone](https://cloud.githubusercontent.com/assets/16024539/12429258/d7ee83c0-beae-11e5-9383-cfd0d80becc5.PNG)
